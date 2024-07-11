@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'GodivaReguler';
+  src:url("https://ik.imagekit.io/sukhakala/Fonts/godiva-reguler.ttf?updatedAt=1684125963235");
+}
+
+@font-face {
+  font-family: 'RobotoBlack';
+  src:url("https://ik.imagekit.io/sukhakala/Fonts/Roboto-Black.ttf?updatedAt=1684125972408");
+}
+
+@font-face {
+  font-family: 'RobotoBold';
+  src:url("https://ik.imagekit.io/sukhakala/Fonts/Roboto-Bold.ttf?updatedAt=1684125973537");
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src:url("https://ik.imagekit.io/sukhakala/Fonts/Roboto-Regular.ttf?updatedAt=1684125973614");
+}
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src:url("https://ik.imagekit.io/sukhakala/Fonts/Roboto-Medium.ttf?updatedAt=1684125973582");
+}
+
+@font-face {
+  font-family: 'gentyDemo';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/GentyDemo-Regular.ttf?updatedAt=1693195589227");
+}
+
+@font-face {
+  font-family: 'sergioTrendy';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/Sergio%20Trendy.ttf?updatedAt=1693195598154");
+}
+
+@font-face {
+  font-family: 'gentyDemoRegular';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/GentyDemo-Regular.otf?updatedAt=1693195589093");
+}
+
+@font-face {
+  font-family: 'brushHcsi';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/BRUSHSCI.ttf?updatedAt=1693195589407");
+}
+
+@font-face {
+  font-family: 'brushScript';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/brush%20script%20mt%20kursiv.ttf?updatedAt=1693195589279");
+}
+
+@font-face {
+  font-family: 'robotoFlex';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/RobotoFlex-VariableFont_GRAD,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf?updatedAt=1693195598131");
+}
+
+@font-face {
+  font-family: 'montserratRegular';
+  src:url("https://ik.imagekit.io/sukhakala2/Fonts/Montserrat-Regular.ttf?updatedAt=1693195593994");
+}
+
+input:focus { outline:none; }
+textarea:focus { outline:none; }
+select:focus { outline:none; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button[enabled]:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button[disabled] {
+  filter: grayscale(1)
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
